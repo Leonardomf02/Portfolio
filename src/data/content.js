@@ -18,7 +18,7 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm Leonardo, 21, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, and got into web development there: HTML, CSS and PHP first, then React and Python on my own projects.",
+    "I'm Leonardo, 24, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, and these days I spend most of my time building AI systems. Cybersecurity is the other area I keep coming back to.",
     "I did a full-stack internship at Cyient in Lisbon and spent an Erasmus year in Poland. Right now I'm at HULTIG, the research lab at UBI, where I'm building an AI algorithm for route optimization.",
   ],
 };
