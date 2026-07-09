@@ -7,7 +7,7 @@ export const profile = {
     "Full-stack developer",
     "React · Python · FastAPI",
     "Route-optimization AI @ HULTIG",
-    "CS & Engineering @ UBI",
+    "MSc in Cybersecurity @ UBI",
   ],
   location: "Portugal",
   email: "leonardomfsantos20@gmail.com",
@@ -18,12 +18,18 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm Leonardo, 24, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, and these days I spend most of my time building AI systems. I'm also interested in cybersecurity.",
+    "I'm Leonardo, 24, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, where I'm now in the second year of a master's in Computer Engineering, focused on virtualisation and cybersecurity. Most of my time these days goes into building AI systems.",
     "I did a full-stack internship at Cyient in Lisbon and spent an Erasmus year in Poland. Right now I'm at HULTIG, the research lab at UBI, where I'm building an AI algorithm for route optimization.",
   ],
 };
 
 export const journey = [
+  {
+    period: "Now",
+    title: "MSc Computer Engineering — Virtualisation & Cybersecurity",
+    place: "University of Beira Interior · Covilhã",
+    note: "Currently in the second year of the master's.",
+  },
   {
     period: "Since Sep 2024",
     title: "AI Developer — HULTIG, University of Beira Interior",
