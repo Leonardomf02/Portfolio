@@ -18,14 +18,14 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm Leonardo, 24, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, and these days I spend most of my time building AI systems. Cybersecurity is the other area I keep coming back to.",
+    "I'm Leonardo, 24, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, and these days I spend most of my time building AI systems. I'm also interested in cybersecurity.",
     "I did a full-stack internship at Cyient in Lisbon and spent an Erasmus year in Poland. Right now I'm at HULTIG, the research lab at UBI, where I'm building an AI algorithm for route optimization.",
   ],
 };
 
 export const journey = [
   {
-    period: "Now",
+    period: "Since Sep 2024",
     title: "AI Developer — HULTIG, University of Beira Interior",
     place: "Covilhã, Portugal",
     note: "Building an AI algorithm for route optimization at the university's research lab.",
@@ -44,7 +44,7 @@ export const journey = [
   },
   {
     period: "Jul – Sep 2024",
-    title: "Full-stack Developer — Cyient (internship)",
+    title: "Full-stack Developer — Celfinet (internship)",
     place: "Lisbon, Portugal",
     note: "Three-month summer internship building full-stack web features.",
   },
