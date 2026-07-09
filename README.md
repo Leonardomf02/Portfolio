@@ -1,8 +1,33 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio — Leonardo M. F. Santos.
 
-Currently, two official plugins are available:
+Live: https://leonardomf02.github.io/Portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack
+
+React + Vite. No runtime dependencies beyond React. Content lives in a single file.
+
+## Editing content
+
+Everything shown on the page is in [`src/data/content.js`](src/data/content.js) —
+name, roles, about text, Erasmus timeline, projects, skills and contact links.
+Edit that file; no component changes needed for text updates.
+
+Two things still need real values in that file:
+
+- `profile.linkedin` — your LinkedIn URL.
+- `profile.cv` — drop a `cv.pdf` into [`public/`](public/) (it's already wired to `/Portfolio/cv.pdf`).
+
+## Run locally
+
+```bash
+npm install
+npm run dev      # http://localhost:3004
+```
+
+## Deploy (GitHub Pages)
+
+```bash
+npm run deploy   # builds and publishes dist/ to the gh-pages branch
+```

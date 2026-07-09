@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useRef } from "react";
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { useReveal } from "./hooks/useReveal";
+import "./index.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+function CursorGlow() {
+  const ref = useRef(null);
+  useEffect(() => {
+    if (window.matchMedia("(pointer: coarse)").matches) return;
+    let raf = 0;
+    const move = (e) => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        if (ref.current) {
+          ref.current.style.setProperty("--mx", `${e.clientX}px`);
+          ref.current.style.setProperty("--my", `${e.clientY}px`);
+        }
+      });
+    };
+    window.addEventListener("pointermove", move);
+    return () => {
+      window.removeEventListener("pointermove", move);
+      cancelAnimationFrame(raf);
+    };
+  }, []);
+  return <div className="cursor-glow" ref={ref} aria-hidden="true" />;
 }
 
-export default App
+export default function App() {
+  useReveal();
+  return (
+    <>
+      <div className="grain" aria-hidden="true" />
+      <CursorGlow />
+      <Nav />
+      <main>
+        <Hero />
+        <Projects />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
+}
