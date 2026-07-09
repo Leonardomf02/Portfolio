@@ -19,46 +19,46 @@ export const profile = {
 export const about = {
   paragraphs: [
     "I'm Leonardo, 24, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, where I'm now in the second year of a master's in Computer Engineering, focused on virtualisation and cybersecurity. Most of my time these days goes into building AI systems.",
-    "I did a full-stack internship at Cyient in Lisbon and spent an Erasmus year in Poland. Right now I'm at HULTIG, the research lab at UBI, where I'm building an AI algorithm for route optimization.",
+    "I did a full-stack internship at Celfinet in Lisbon and spent an Erasmus year in Poland. Right now I'm at HULTIG, the research lab at UBI, where I'm building an AI algorithm for route optimization.",
   ],
 };
 
 export const journey = [
   {
     period: "Now",
-    title: "MSc Computer Engineering — Virtualisation & Cybersecurity",
-    place: "University of Beira Interior · Covilhã",
-    note: "Currently in the second year of the master's.",
+    title: "MSc in Computer Engineering",
+    place: "University of Beira Interior, Covilhã",
+    note: "Second year, specialising in virtualisation and cybersecurity.",
   },
   {
     period: "Since Sep 2024",
-    title: "AI Developer — HULTIG, University of Beira Interior",
-    place: "Covilhã, Portugal",
+    title: "AI Developer at HULTIG",
+    place: "University of Beira Interior, Covilhã",
     note: "Building an AI algorithm for route optimization at the university's research lab.",
   },
   {
     period: "Spring 2025",
-    title: "Erasmus — Cracow University of Technology",
+    title: "Erasmus at Cracow University of Technology",
     place: "Kraków, Poland",
     note: "Second Erasmus semester, at Politechnika Krakowska.",
   },
   {
-    period: "Oct 2024 – Feb 2025",
-    title: "Erasmus — Rzeszów University of Technology",
+    period: "Oct 2024 to Feb 2025",
+    title: "Erasmus at Rzeszów University of Technology",
     place: "Rzeszów, Poland",
-    note: "First semester abroad, Computer Science.",
+    note: "First semester abroad, in Computer Science.",
   },
   {
-    period: "Jul – Sep 2024",
-    title: "Full-stack Developer — Celfinet (internship)",
+    period: "Jul to Sep 2024",
+    title: "Full-stack Developer at Celfinet",
     place: "Lisbon, Portugal",
-    note: "Three-month summer internship building full-stack web features.",
+    note: "Summer internship building full-stack web features.",
   },
   {
-    period: "2021 – 2025",
-    title: "BSc Computer Science & Engineering — UBI",
-    place: "Covilhã, Portugal",
-    note: "Bachelor's degree. Google Cloud Cybersecurity certificate along the way.",
+    period: "2021 to 2025",
+    title: "BSc in Computer Science and Engineering",
+    place: "University of Beira Interior, Covilhã",
+    note: "My bachelor's degree. Got a Google Cloud Cybersecurity certificate along the way.",
   },
 ];
 
@@ -67,7 +67,7 @@ export const projects = [
     name: "Cristopher",
     tagline: "A personal life manager I actually use every day.",
     description:
-      "Calendar, expense tracking with charts, a League of Legends match tracker, trips, habits and notes — all in one place. Built to replace five different apps with one that fits how I work.",
+      "Calendar, expense tracking with charts, a League of Legends match tracker, trips, habits and notes, all in one place. I built it to replace the handful of apps I was using with something that fits how I work.",
     stack: ["React", "TypeScript", "Tailwind", "FastAPI", "SQLite"],
     repo: "https://github.com/Leonardomf02/Cristopher",
     highlight: true,
@@ -77,7 +77,7 @@ export const projects = [
     name: "Travel",
     tagline: "Plan trips and search real flights.",
     description:
-      "Trip planning, a log of places I've been with notes and ratings, and live flight search through the Amadeus API. Includes auth and a few AI-assisted suggestions.",
+      "Trip planning, a log of the places I've been with notes and ratings, and live flight search through the Amadeus API. It has login and a few travel suggestions.",
     stack: ["React", "FastAPI", "SQLite", "Amadeus API"],
     repo: "https://github.com/Leonardomf02/Travel",
     highlight: false,
@@ -87,7 +87,7 @@ export const projects = [
     name: "imdb-tracker",
     tagline: "Keep track of what I watch.",
     description:
-      "A full-stack film tracker — browse, rate and keep a watchlist. A lighter Python-backed take on the same idea, with a start script that boots the whole stack in one command.",
+      "A full-stack film tracker where you browse, rate and keep a watchlist. A lighter take on the same idea, with a Python backend and a start script that launches everything in one command.",
     stack: ["Python", "JavaScript", "SQLite"],
     repo: "https://github.com/Leonardomf02/imdb-tracker",
     highlight: false,

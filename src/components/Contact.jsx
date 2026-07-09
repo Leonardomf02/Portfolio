@@ -12,11 +12,11 @@ export default function Contact() {
       <div className="contact" data-reveal>
         <span className="section__index">03</span>
         <h2 className="contact__title">
-          Let's build<br />something.
+          Get in<br />touch.
         </h2>
         <p className="contact__lede">
-          Open to internships, collaborations, or a good conversation about a project.
-          The fastest way to reach me is email.
+          I'm open to internships and collaborations. Email is the quickest way to
+          reach me.
         </p>
 
         <a className="btn btn--primary btn--lg" href={`mailto:${profile.email}`}>

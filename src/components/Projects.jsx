@@ -14,7 +14,7 @@ export default function Projects() {
       <div className="section__head" data-reveal>
         <span className="section__index">01</span>
         <h2 className="section__title">Selected work</h2>
-        <p className="section__note">Things I've built end-to-end.</p>
+        <p className="section__note">A few things I've built.</p>
       </div>
 
       <div className="projects">
