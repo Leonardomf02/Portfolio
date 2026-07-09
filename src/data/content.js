@@ -1,16 +1,15 @@
 // Single source of truth for the portfolio content.
-// Swap LINKEDIN_URL and the CV file when you have them.
 
 export const profile = {
-  name: "Leonardo M. F. Santos",
+  name: "Leonardo Santos",
   // Rotating one-liners under the name.
   roles: [
     "Full-stack developer",
-    "React · FastAPI · Python",
-    "Erasmus × Poland",
-    "I ship side-projects",
+    "React · Python · FastAPI",
+    "Route-optimization AI @ HULTIG",
+    "CS & Engineering @ UBI",
   ],
-  location: "Portugal · currently Kraków, Poland",
+  location: "Portugal",
   email: "leonardomfsantos20@gmail.com",
   github: "https://github.com/Leonardomf02",
   linkedin: "https://www.linkedin.com/in/leonardosantos02/",
@@ -19,24 +18,41 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm a developer who learns by building. Most of what I know came from turning small, annoying problems in my own life into full apps — a calendar I'd actually use, a way to track trips, a movie tracker.",
-    "I work end-to-end: React and TypeScript on the front, FastAPI and Python on the back, SQLite when it fits. I care about tools that feel fast and get out of the way.",
+    "I'm Leonardo, 21, from Portugal. I studied Computer Science and Engineering at the University of Beira Interior, and got into web development there: HTML, CSS and PHP first, then React and Python on my own projects.",
+    "I did a full-stack internship at Cyient in Lisbon and spent an Erasmus year in Poland. Right now I'm at HULTIG, the research lab at UBI, where I'm building an AI algorithm for route optimization.",
   ],
 };
 
-// Erasmus timeline
 export const journey = [
   {
-    period: "Winter 2024/25",
-    title: "Erasmus — Rzeszów University of Technology",
-    place: "Rzeszów, Poland",
-    note: "Politechnika Rzeszowska. One semester abroad, first time living in Poland.",
+    period: "Now",
+    title: "AI Developer — HULTIG, University of Beira Interior",
+    place: "Covilhã, Portugal",
+    note: "Building an AI algorithm for route optimization at the university's research lab.",
   },
   {
-    period: "Summer 2024/25",
+    period: "Spring 2025",
     title: "Erasmus — Cracow University of Technology",
     place: "Kraków, Poland",
-    note: "Politechnika Krakowska. Second semester abroad, still in Kraków.",
+    note: "Second Erasmus semester, at Politechnika Krakowska.",
+  },
+  {
+    period: "Oct 2024 – Feb 2025",
+    title: "Erasmus — Rzeszów University of Technology",
+    place: "Rzeszów, Poland",
+    note: "First semester abroad, Computer Science.",
+  },
+  {
+    period: "Jul – Sep 2024",
+    title: "Full-stack Developer — Cyient (internship)",
+    place: "Lisbon, Portugal",
+    note: "Three-month summer internship building full-stack web features.",
+  },
+  {
+    period: "2021 – 2025",
+    title: "BSc Computer Science & Engineering — UBI",
+    place: "Covilhã, Portugal",
+    note: "Bachelor's degree. Google Cloud Cybersecurity certificate along the way.",
   },
 ];
 
@@ -75,6 +91,6 @@ export const projects = [
 
 export const skills = [
   { group: "Frontend", items: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "Vite", "HTML / CSS"] },
-  { group: "Backend", items: ["Python", "FastAPI", "Node.js", "Express", "REST APIs"] },
-  { group: "Data & tools", items: ["SQLite", "Git", "Linux", "Amadeus API", "GitHub Pages"] },
+  { group: "Backend", items: ["Python", "FastAPI", "PHP", "Node.js", "Java", "C"] },
+  { group: "Tools & data", items: ["SQLite", "Git", "Linux", "REST APIs", "Google Cloud"] },
 ];

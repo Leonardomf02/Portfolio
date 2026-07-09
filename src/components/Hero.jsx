@@ -23,7 +23,7 @@ export default function Hero() {
         </p>
 
         <h1 className="hero__name" data-reveal>
-          Leonardo <span className="hero__name-accent">M. F. Santos</span>
+          Leonardo <span className="hero__name-accent">Santos</span>
         </h1>
 
         <p className="hero__sub" data-reveal>
@@ -31,8 +31,9 @@ export default function Hero() {
         </p>
 
         <p className="hero__lede" data-reveal>
-          I build full-stack apps that solve my own problems — then polish them until
-          they feel good to use. Currently on Erasmus in Poland.
+          I'm a developer from Portugal. I build full-stack web apps, and right now
+          I'm at the HULTIG lab at UBI working on an AI algorithm for route
+          optimization.
         </p>
 
         <div className="hero__actions" data-reveal>

@@ -21,7 +21,7 @@ export default function Nav() {
       <div className="nav__inner">
         <a href="#top" className="nav__brand">
           <span className="nav__dot" />
-          LMFS
+          LS
         </a>
         <nav className="nav__links">
           {links.map((l) => (

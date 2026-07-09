@@ -30,7 +30,7 @@ export default function About() {
         </div>
 
         <div className="about__timeline" data-reveal>
-          <h4 className="timeline__label">Erasmus in Poland</h4>
+          <h4 className="timeline__label">Path so far</h4>
           <ol className="timeline">
             {journey.map((j) => (
               <li className="timeline__item" key={j.title}>
